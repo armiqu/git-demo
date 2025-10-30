@@ -1,5 +1,5 @@
 # Лабораторная по операционным системам  
-**Вариант 2 (чётный номер)**
+**Вариант 2**
 
 **Студент:** Хвойницкий Артём  
 **Каталог:** `lab4/gr9sub1/Хвойницкий_Артем/`  
@@ -21,3 +21,17 @@
 - Инструменты: `/proc`, `ps`, `htop`, `iostat`, `pidstat`, `strace`.
 
 **Структура проекта**
+```
+lab4/
+  gr9sub1/
+   Хвойницкий_Артем/
+      REPORT.MD
+      src/
+        memory_profiler.c
+        a_memmap.c
+        b_io_bench.c
+        c_disk_stress.c
+      Makefile
+      screenshots/
+      logs/
+```
