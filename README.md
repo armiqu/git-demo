@@ -229,11 +229,7 @@ lab4/
 - `logs/c_disk_write.txt`, `logs/c_disk_read.txt`, `logs/iostat_read.txt`, `logs/pidstat_read.txt`, `logs/proc_io_read_stream.txt`  
 - `screenshots/htop_a.png`, `screenshots/htop_c_write.png`, `screenshots/htop_c_read.png`
 
-**Пример запуска**
-```bash
-make
-./a_memmap | tee logs/a_memmap.txt
-./b_io_bench --all | tee logs/b_io_bench.txt
-./c_disk_stress --size 5G --mode write --path ./stress.bin | tee logs/c_disk_write.txt
-./c_disk_stress --size 5G --mode read  --path ./stress.bin | tee logs/c_disk_read.txt
+---
 
+## Использование ИИ
+ИИ использовался для помощи в оформлении отчета и ответов на вопросы.
